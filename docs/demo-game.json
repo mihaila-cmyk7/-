@@ -1,0 +1,1480 @@
+{
+ "result": {
+  "winner": 2,
+  "loser": 1,
+  "reason": "checkmate",
+  "winners": [
+   2
+  ]
+ },
+ "plies": 72,
+ "moves": [
+  {
+   "n": 1,
+   "wing": 0,
+   "who": "Белые",
+   "notation": "wc2-wc4"
+  },
+  {
+   "n": 2,
+   "wing": 1,
+   "who": "Красные",
+   "notation": "rf2-rf4"
+  },
+  {
+   "n": 3,
+   "wing": 2,
+   "who": "Чёрные",
+   "notation": "bd2-bd4"
+  },
+  {
+   "n": 4,
+   "wing": 0,
+   "who": "Белые",
+   "notation": "we2-we4"
+  },
+  {
+   "n": 5,
+   "wing": 1,
+   "who": "Красные",
+   "notation": "rf4-bc4"
+  },
+  {
+   "n": 6,
+   "wing": 2,
+   "who": "Чёрные",
+   "notation": "bh2-bh4"
+  },
+  {
+   "n": 7,
+   "wing": 0,
+   "who": "Белые",
+   "notation": "we4-rd4"
+  },
+  {
+   "n": 8,
+   "wing": 1,
+   "who": "Красные",
+   "notation": "rb2-rb4"
+  },
+  {
+   "n": 9,
+   "wing": 2,
+   "who": "Чёрные",
+   "notation": "bd4xrd4"
+  },
+  {
+   "n": 10,
+   "wing": 0,
+   "who": "Белые",
+   "notation": "wg2-wg4"
+  },
+  {
+   "n": 11,
+   "wing": 1,
+   "who": "Красные",
+   "notation": "rh2-rh4"
+  },
+  {
+   "n": 12,
+   "wing": 2,
+   "who": "Чёрные",
+   "notation": "rd4-rd3"
+  },
+  {
+   "n": 13,
+   "wing": 0,
+   "who": "Белые",
+   "notation": "wd2-wd4"
+  },
+  {
+   "n": 14,
+   "wing": 1,
+   "who": "Красные",
+   "notation": "rc2xrd3"
+  },
+  {
+   "n": 15,
+   "wing": 2,
+   "who": "Чёрные",
+   "notation": "bc1-wb4+"
+  },
+  {
+   "n": 16,
+   "wing": 0,
+   "who": "Белые",
+   "notation": "we1-we2"
+  },
+  {
+   "n": 17,
+   "wing": 1,
+   "who": "Красные",
+   "notation": "rh4-ba4"
+  },
+  {
+   "n": 18,
+   "wing": 2,
+   "who": "Чёрные",
+   "notation": "bb2-bb4"
+  },
+  {
+   "n": 19,
+   "wing": 0,
+   "who": "Белые",
+   "notation": "wc1xrb4"
+  },
+  {
+   "n": 20,
+   "wing": 1,
+   "who": "Красные",
+   "notation": "rg2-rg4"
+  },
+  {
+   "n": 21,
+   "wing": 2,
+   "who": "Чёрные",
+   "notation": "bf2-bf3"
+  },
+  {
+   "n": 22,
+   "wing": 0,
+   "who": "Белые",
+   "notation": "wd4-be4"
+  },
+  {
+   "n": 23,
+   "wing": 1,
+   "who": "Красные",
+   "notation": "ra2-ra4"
+  },
+  {
+   "n": 24,
+   "wing": 2,
+   "who": "Чёрные",
+   "notation": "bf3-bf4"
+  },
+  {
+   "n": 25,
+   "wing": 0,
+   "who": "Белые",
+   "notation": "wh2-wh4"
+  },
+  {
+   "n": 26,
+   "wing": 1,
+   "who": "Красные",
+   "notation": "ra4xwg4"
+  },
+  {
+   "n": 27,
+   "wing": 2,
+   "who": "Чёрные",
+   "notation": "bc2-bc3"
+  },
+  {
+   "n": 28,
+   "wing": 0,
+   "who": "Белые",
+   "notation": "wa2-wa4"
+  },
+  {
+   "n": 29,
+   "wing": 1,
+   "who": "Красные",
+   "notation": "rd3-rd4"
+  },
+  {
+   "n": 30,
+   "wing": 2,
+   "who": "Чёрные",
+   "notation": "bg2-bg3"
+  },
+  {
+   "n": 31,
+   "wing": 0,
+   "who": "Белые",
+   "notation": "wf2-wf4"
+  },
+  {
+   "n": 32,
+   "wing": 1,
+   "who": "Красные",
+   "notation": "rd4-we4"
+  },
+  {
+   "n": 33,
+   "wing": 2,
+   "who": "Чёрные",
+   "notation": "be2-be3"
+  },
+  {
+   "n": 34,
+   "wing": 0,
+   "who": "Белые",
+   "notation": "wb2-wb3"
+  },
+  {
+   "n": 35,
+   "wing": 1,
+   "who": "Красные",
+   "notation": "rf1-rh3"
+  },
+  {
+   "n": 36,
+   "wing": 2,
+   "who": "Чёрные",
+   "notation": "bf1xbc4"
+  },
+  {
+   "n": 37,
+   "wing": 0,
+   "who": "Белые",
+   "notation": "we2-we3"
+  },
+  {
+   "n": 38,
+   "wing": 1,
+   "who": "Красные",
+   "notation": "rg4xbc4"
+  },
+  {
+   "n": 39,
+   "wing": 2,
+   "who": "Чёрные",
+   "notation": "bd1xba4"
+  },
+  {
+   "n": 40,
+   "wing": 0,
+   "who": "Белые",
+   "notation": "we3xwe4"
+  },
+  {
+   "n": 41,
+   "wing": 1,
+   "who": "Красные",
+   "notation": "rd1-rb3+"
+  },
+  {
+   "n": 42,
+   "wing": 2,
+   "who": "Чёрные",
+   "notation": "ba4-rh4+"
+  },
+  {
+   "n": 43,
+   "wing": 0,
+   "who": "Белые",
+   "notation": "we4-wf3+"
+  },
+  {
+   "n": 44,
+   "wing": 1,
+   "who": "Красные",
+   "notation": "re1-rf1"
+  },
+  {
+   "n": 45,
+   "wing": 2,
+   "who": "Чёрные",
+   "notation": "rh4-rf4+"
+  },
+  {
+   "n": 46,
+   "wing": 0,
+   "who": "Белые",
+   "notation": "wf3xwg4+"
+  },
+  {
+   "n": 47,
+   "wing": 1,
+   "who": "Красные",
+   "notation": "rf1-re1"
+  },
+  {
+   "n": 48,
+   "wing": 2,
+   "who": "Чёрные",
+   "notation": "rf4-rh4+"
+  },
+  {
+   "n": 49,
+   "wing": 0,
+   "who": "Белые",
+   "notation": "wg4-wf3+"
+  },
+  {
+   "n": 50,
+   "wing": 1,
+   "who": "Красные",
+   "notation": "re1-rd1"
+  },
+  {
+   "n": 51,
+   "wing": 2,
+   "who": "Чёрные",
+   "notation": "ba2-ba4"
+  },
+  {
+   "n": 52,
+   "wing": 0,
+   "who": "Белые",
+   "notation": "wf1-wg2"
+  },
+  {
+   "n": 53,
+   "wing": 1,
+   "who": "Красные",
+   "notation": "rb3-rf3+"
+  },
+  {
+   "n": 54,
+   "wing": 2,
+   "who": "Чёрные",
+   "notation": "be1-bd2+"
+  },
+  {
+   "n": 55,
+   "wing": 0,
+   "who": "Белые",
+   "notation": "wf3-wg4"
+  },
+  {
+   "n": 56,
+   "wing": 1,
+   "who": "Красные",
+   "notation": "rf3-rd3+"
+  },
+  {
+   "n": 57,
+   "wing": 2,
+   "who": "Чёрные",
+   "notation": "bd2-bc1+"
+  },
+  {
+   "n": 58,
+   "wing": 0,
+   "who": "Белые",
+   "notation": "wg4-wf3"
+  },
+  {
+   "n": 59,
+   "wing": 1,
+   "who": "Красные",
+   "notation": "rd3-rf3+"
+  },
+  {
+   "n": 60,
+   "wing": 2,
+   "who": "Чёрные",
+   "notation": "ba1-ba3+"
+  },
+  {
+   "n": 61,
+   "wing": 0,
+   "who": "Белые",
+   "notation": "wf3-we2"
+  },
+  {
+   "n": 62,
+   "wing": 1,
+   "who": "Красные",
+   "notation": "rf3-rd3+"
+  },
+  {
+   "n": 63,
+   "wing": 2,
+   "who": "Чёрные",
+   "notation": "bh1-bh2+"
+  },
+  {
+   "n": 64,
+   "wing": 0,
+   "who": "Белые",
+   "notation": "we2-wf1"
+  },
+  {
+   "n": 65,
+   "wing": 1,
+   "who": "Красные",
+   "notation": "re2-re3"
+  },
+  {
+   "n": 66,
+   "wing": 2,
+   "who": "Чёрные",
+   "notation": "bh2-ba2"
+  },
+  {
+   "n": 67,
+   "wing": 0,
+   "who": "Белые",
+   "notation": "wg2xrh1"
+  },
+  {
+   "n": 68,
+   "wing": 1,
+   "who": "Красные",
+   "notation": "rd3-rc2"
+  },
+  {
+   "n": 69,
+   "wing": 2,
+   "who": "Чёрные",
+   "notation": "rh4-rg3"
+  },
+  {
+   "n": 70,
+   "wing": 0,
+   "who": "Белые",
+   "notation": "wh1-wh3"
+  },
+  {
+   "n": 71,
+   "wing": 1,
+   "who": "Красные",
+   "notation": "rd2-rd4"
+  },
+  {
+   "n": 72,
+   "wing": 2,
+   "who": "Чёрные",
+   "notation": "rg3-re1#"
+  }
+ ],
+ "final": {
+  "v": 1,
+  "board": [
+   "wr",
+   "wn",
+   null,
+   "wq",
+   null,
+   "wk",
+   "wn",
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   "wp",
+   null,
+   null,
+   null,
+   null,
+   null,
+   "wr",
+   "wp",
+   "bb",
+   "wp",
+   null,
+   null,
+   "wp",
+   null,
+   "wp",
+   "rr",
+   "rn",
+   "rb",
+   "rk",
+   "bq",
+   null,
+   "rn",
+   "wb",
+   null,
+   null,
+   "rq",
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   "rp",
+   null,
+   null,
+   "rb",
+   null,
+   "wb",
+   null,
+   "rp",
+   null,
+   null,
+   null,
+   null,
+   null,
+   "bn",
+   "bk",
+   null,
+   null,
+   null,
+   "bn",
+   null,
+   "br",
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   "br",
+   null,
+   "bp",
+   null,
+   "bp",
+   null,
+   "bp",
+   null,
+   "bp",
+   "bp",
+   "rp",
+   null,
+   "wp",
+   "bp",
+   null,
+   "bp"
+  ],
+  "turn": 2,
+  "castling": [
+   {
+    "k": false,
+    "q": false
+   },
+   {
+    "k": false,
+    "q": false
+   },
+   {
+    "k": false,
+    "q": false
+   }
+  ],
+  "alive": [
+   true,
+   true,
+   true
+  ],
+  "halfmove": 1,
+  "ply": 72,
+  "status": "finished",
+  "result": {
+   "winner": 2,
+   "loser": 1,
+   "reason": "checkmate",
+   "winners": [
+    2
+   ]
+  },
+  "lastMove": {
+   "from": 54,
+   "to": 36,
+   "wing": 2
+  },
+  "history": [
+   {
+    "ply": 1,
+    "wing": 0,
+    "move": {
+     "from": 10,
+     "to": 26,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "wc2-wc4"
+   },
+   {
+    "ply": 2,
+    "wing": 1,
+    "move": {
+     "from": 45,
+     "to": 61,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "rf2-rf4"
+   },
+   {
+    "ply": 3,
+    "wing": 2,
+    "move": {
+     "from": 75,
+     "to": 91,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "bd2-bd4"
+   },
+   {
+    "ply": 4,
+    "wing": 0,
+    "move": {
+     "from": 12,
+     "to": 28,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "we2-we4"
+   },
+   {
+    "ply": 5,
+    "wing": 1,
+    "move": {
+     "from": 61,
+     "to": 90,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "rf4-bc4"
+   },
+   {
+    "ply": 6,
+    "wing": 2,
+    "move": {
+     "from": 79,
+     "to": 95,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "bh2-bh4"
+   },
+   {
+    "ply": 7,
+    "wing": 0,
+    "move": {
+     "from": 28,
+     "to": 59,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "we4-rd4"
+   },
+   {
+    "ply": 8,
+    "wing": 1,
+    "move": {
+     "from": 41,
+     "to": 57,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "rb2-rb4"
+   },
+   {
+    "ply": 9,
+    "wing": 2,
+    "move": {
+     "from": 91,
+     "to": 59,
+     "promo": null,
+     "castle": null,
+     "capture": {
+      "type": "p",
+      "wing": 0
+     }
+    },
+    "notation": "bd4xrd4"
+   },
+   {
+    "ply": 10,
+    "wing": 0,
+    "move": {
+     "from": 14,
+     "to": 30,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "wg2-wg4"
+   },
+   {
+    "ply": 11,
+    "wing": 1,
+    "move": {
+     "from": 47,
+     "to": 63,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "rh2-rh4"
+   },
+   {
+    "ply": 12,
+    "wing": 2,
+    "move": {
+     "from": 59,
+     "to": 51,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "rd4-rd3"
+   },
+   {
+    "ply": 13,
+    "wing": 0,
+    "move": {
+     "from": 11,
+     "to": 27,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "wd2-wd4"
+   },
+   {
+    "ply": 14,
+    "wing": 1,
+    "move": {
+     "from": 42,
+     "to": 51,
+     "promo": null,
+     "castle": null,
+     "capture": {
+      "type": "p",
+      "wing": 2
+     }
+    },
+    "notation": "rc2xrd3"
+   },
+   {
+    "ply": 15,
+    "wing": 2,
+    "move": {
+     "from": 66,
+     "to": 25,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "bc1-wb4+"
+   },
+   {
+    "ply": 16,
+    "wing": 0,
+    "move": {
+     "from": 4,
+     "to": 12,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "we1-we2"
+   },
+   {
+    "ply": 17,
+    "wing": 1,
+    "move": {
+     "from": 63,
+     "to": 88,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "rh4-ba4"
+   },
+   {
+    "ply": 18,
+    "wing": 2,
+    "move": {
+     "from": 73,
+     "to": 89,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "bb2-bb4"
+   },
+   {
+    "ply": 19,
+    "wing": 0,
+    "move": {
+     "from": 2,
+     "to": 57,
+     "promo": null,
+     "castle": null,
+     "capture": {
+      "type": "p",
+      "wing": 1
+     }
+    },
+    "notation": "wc1xrb4"
+   },
+   {
+    "ply": 20,
+    "wing": 1,
+    "move": {
+     "from": 46,
+     "to": 62,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "rg2-rg4"
+   },
+   {
+    "ply": 21,
+    "wing": 2,
+    "move": {
+     "from": 77,
+     "to": 85,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "bf2-bf3"
+   },
+   {
+    "ply": 22,
+    "wing": 0,
+    "move": {
+     "from": 27,
+     "to": 92,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "wd4-be4"
+   },
+   {
+    "ply": 23,
+    "wing": 1,
+    "move": {
+     "from": 40,
+     "to": 56,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "ra2-ra4"
+   },
+   {
+    "ply": 24,
+    "wing": 2,
+    "move": {
+     "from": 85,
+     "to": 93,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "bf3-bf4"
+   },
+   {
+    "ply": 25,
+    "wing": 0,
+    "move": {
+     "from": 15,
+     "to": 31,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "wh2-wh4"
+   },
+   {
+    "ply": 26,
+    "wing": 1,
+    "move": {
+     "from": 56,
+     "to": 30,
+     "promo": null,
+     "castle": null,
+     "capture": {
+      "type": "p",
+      "wing": 0
+     }
+    },
+    "notation": "ra4xwg4"
+   },
+   {
+    "ply": 27,
+    "wing": 2,
+    "move": {
+     "from": 74,
+     "to": 82,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "bc2-bc3"
+   },
+   {
+    "ply": 28,
+    "wing": 0,
+    "move": {
+     "from": 8,
+     "to": 24,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "wa2-wa4"
+   },
+   {
+    "ply": 29,
+    "wing": 1,
+    "move": {
+     "from": 51,
+     "to": 59,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "rd3-rd4"
+   },
+   {
+    "ply": 30,
+    "wing": 2,
+    "move": {
+     "from": 78,
+     "to": 86,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "bg2-bg3"
+   },
+   {
+    "ply": 31,
+    "wing": 0,
+    "move": {
+     "from": 13,
+     "to": 29,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "wf2-wf4"
+   },
+   {
+    "ply": 32,
+    "wing": 1,
+    "move": {
+     "from": 59,
+     "to": 28,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "rd4-we4"
+   },
+   {
+    "ply": 33,
+    "wing": 2,
+    "move": {
+     "from": 76,
+     "to": 84,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "be2-be3"
+   },
+   {
+    "ply": 34,
+    "wing": 0,
+    "move": {
+     "from": 9,
+     "to": 17,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "wb2-wb3"
+   },
+   {
+    "ply": 35,
+    "wing": 1,
+    "move": {
+     "from": 37,
+     "to": 55,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "rf1-rh3"
+   },
+   {
+    "ply": 36,
+    "wing": 2,
+    "move": {
+     "from": 69,
+     "to": 90,
+     "promo": null,
+     "castle": null,
+     "capture": {
+      "type": "p",
+      "wing": 1
+     }
+    },
+    "notation": "bf1xbc4"
+   },
+   {
+    "ply": 37,
+    "wing": 0,
+    "move": {
+     "from": 12,
+     "to": 20,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "we2-we3"
+   },
+   {
+    "ply": 38,
+    "wing": 1,
+    "move": {
+     "from": 62,
+     "to": 90,
+     "promo": null,
+     "castle": null,
+     "capture": {
+      "type": "b",
+      "wing": 2
+     }
+    },
+    "notation": "rg4xbc4"
+   },
+   {
+    "ply": 39,
+    "wing": 2,
+    "move": {
+     "from": 67,
+     "to": 88,
+     "promo": null,
+     "castle": null,
+     "capture": {
+      "type": "p",
+      "wing": 1
+     }
+    },
+    "notation": "bd1xba4"
+   },
+   {
+    "ply": 40,
+    "wing": 0,
+    "move": {
+     "from": 20,
+     "to": 28,
+     "promo": null,
+     "castle": null,
+     "capture": {
+      "type": "p",
+      "wing": 1
+     }
+    },
+    "notation": "we3xwe4"
+   },
+   {
+    "ply": 41,
+    "wing": 1,
+    "move": {
+     "from": 35,
+     "to": 49,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "rd1-rb3+"
+   },
+   {
+    "ply": 42,
+    "wing": 2,
+    "move": {
+     "from": 88,
+     "to": 63,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "ba4-rh4+"
+   },
+   {
+    "ply": 43,
+    "wing": 0,
+    "move": {
+     "from": 28,
+     "to": 21,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "we4-wf3+"
+   },
+   {
+    "ply": 44,
+    "wing": 1,
+    "move": {
+     "from": 36,
+     "to": 37,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "re1-rf1"
+   },
+   {
+    "ply": 45,
+    "wing": 2,
+    "move": {
+     "from": 63,
+     "to": 61,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "rh4-rf4+"
+   },
+   {
+    "ply": 46,
+    "wing": 0,
+    "move": {
+     "from": 21,
+     "to": 30,
+     "promo": null,
+     "castle": null,
+     "capture": {
+      "type": "p",
+      "wing": 1
+     }
+    },
+    "notation": "wf3xwg4+"
+   },
+   {
+    "ply": 47,
+    "wing": 1,
+    "move": {
+     "from": 37,
+     "to": 36,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "rf1-re1"
+   },
+   {
+    "ply": 48,
+    "wing": 2,
+    "move": {
+     "from": 61,
+     "to": 63,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "rf4-rh4+"
+   },
+   {
+    "ply": 49,
+    "wing": 0,
+    "move": {
+     "from": 30,
+     "to": 21,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "wg4-wf3+"
+   },
+   {
+    "ply": 50,
+    "wing": 1,
+    "move": {
+     "from": 36,
+     "to": 35,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "re1-rd1"
+   },
+   {
+    "ply": 51,
+    "wing": 2,
+    "move": {
+     "from": 72,
+     "to": 88,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "ba2-ba4"
+   },
+   {
+    "ply": 52,
+    "wing": 0,
+    "move": {
+     "from": 5,
+     "to": 14,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "wf1-wg2"
+   },
+   {
+    "ply": 53,
+    "wing": 1,
+    "move": {
+     "from": 49,
+     "to": 53,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "rb3-rf3+"
+   },
+   {
+    "ply": 54,
+    "wing": 2,
+    "move": {
+     "from": 68,
+     "to": 75,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "be1-bd2+"
+   },
+   {
+    "ply": 55,
+    "wing": 0,
+    "move": {
+     "from": 21,
+     "to": 30,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "wf3-wg4"
+   },
+   {
+    "ply": 56,
+    "wing": 1,
+    "move": {
+     "from": 53,
+     "to": 51,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "rf3-rd3+"
+   },
+   {
+    "ply": 57,
+    "wing": 2,
+    "move": {
+     "from": 75,
+     "to": 66,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "bd2-bc1+"
+   },
+   {
+    "ply": 58,
+    "wing": 0,
+    "move": {
+     "from": 30,
+     "to": 21,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "wg4-wf3"
+   },
+   {
+    "ply": 59,
+    "wing": 1,
+    "move": {
+     "from": 51,
+     "to": 53,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "rd3-rf3+"
+   },
+   {
+    "ply": 60,
+    "wing": 2,
+    "move": {
+     "from": 64,
+     "to": 80,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "ba1-ba3+"
+   },
+   {
+    "ply": 61,
+    "wing": 0,
+    "move": {
+     "from": 21,
+     "to": 12,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "wf3-we2"
+   },
+   {
+    "ply": 62,
+    "wing": 1,
+    "move": {
+     "from": 53,
+     "to": 51,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "rf3-rd3+"
+   },
+   {
+    "ply": 63,
+    "wing": 2,
+    "move": {
+     "from": 71,
+     "to": 79,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "bh1-bh2+"
+   },
+   {
+    "ply": 64,
+    "wing": 0,
+    "move": {
+     "from": 12,
+     "to": 5,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "we2-wf1"
+   },
+   {
+    "ply": 65,
+    "wing": 1,
+    "move": {
+     "from": 44,
+     "to": 52,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "re2-re3"
+   },
+   {
+    "ply": 66,
+    "wing": 2,
+    "move": {
+     "from": 79,
+     "to": 72,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "bh2-ba2"
+   },
+   {
+    "ply": 67,
+    "wing": 0,
+    "move": {
+     "from": 14,
+     "to": 39,
+     "promo": null,
+     "castle": null,
+     "capture": {
+      "type": "r",
+      "wing": 1
+     }
+    },
+    "notation": "wg2xrh1"
+   },
+   {
+    "ply": 68,
+    "wing": 1,
+    "move": {
+     "from": 51,
+     "to": 42,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "rd3-rc2"
+   },
+   {
+    "ply": 69,
+    "wing": 2,
+    "move": {
+     "from": 63,
+     "to": 54,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "rh4-rg3"
+   },
+   {
+    "ply": 70,
+    "wing": 0,
+    "move": {
+     "from": 7,
+     "to": 23,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "wh1-wh3"
+   },
+   {
+    "ply": 71,
+    "wing": 1,
+    "move": {
+     "from": 43,
+     "to": 59,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "rd2-rd4"
+   },
+   {
+    "ply": 72,
+    "wing": 2,
+    "move": {
+     "from": 54,
+     "to": 36,
+     "promo": null,
+     "castle": null,
+     "capture": null
+    },
+    "notation": "rg3-re1#"
+   }
+  ],
+  "skipped": []
+ },
+ "seedDemo": true
+}

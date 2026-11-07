@@ -1,0 +1,17 @@
+{
+  "name": "chess3",
+  "version": "1.0.0",
+  "description": "Шахматы на троих — игра на 96 клетках для трёх игроков. Статический сайт, работает без сервера.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "node scripts/serve.mjs 8199",
+    "test": "node scripts/test.mjs",
+    "deploy": "tgcloud push",
+    "migrate": "tgcloud migrate --safe",
+    "status": "tgcloud status"
+  },
+  "devDependencies": {
+    "@tgcloud/cli": "^0.2.0"
+  }
+}

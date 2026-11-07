@@ -1,0 +1,114 @@
+/* ------------------------- спокойный, «не-ии» стиль ----------------------- */
+
+:root {
+  --accent: #c9d6cf;
+  --accent-2: #b8c2d1;
+  --panel: #14181d;
+  --radius: 14px;
+}
+
+/* оверлей меню/лобби: плотная подложка без неона */
+.overlay-screen {
+  background: rgba(9, 11, 14, 0.88);
+  backdrop-filter: blur(4px);
+}
+.sheet {
+  background: #15191e;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  box-shadow: 0 20px 48px rgba(0, 0, 0, 0.55);
+}
+.sheet h1 { font-size: 21px; letter-spacing: 0; }
+.sheet h2 { font-size: 17px; letter-spacing: 0; }
+.sheet p { color: #8d97a4; }
+
+/* кнопки: без градиентов и «свечения» */
+button.btn {
+  background: #1c2127;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  border-radius: 11px;
+  font-weight: 500;
+}
+button.btn.primary {
+  background: #e8ecef;
+  color: #14181d;
+  border-color: transparent;
+}
+button.btn.ghost {
+  background: transparent;
+  border-color: rgba(255, 255, 255, 0.10);
+  color: #b9c2cc;
+}
+button.btn.danger {
+  background: transparent;
+  color: #d98b84;
+  border-color: rgba(217, 139, 132, 0.4);
+}
+
+/* места за столом */
+.seat {
+  background: #191e24;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 12px;
+}
+.seat .who .n { font-weight: 600; }
+.seat .state { color: #8d97a4; }
+.seat .state.ok { color: #b9c9c0; }
+.seat .state.bot { color: #9aa7b8; }
+.seat.mine { border-color: rgba(255, 255, 255, 0.28); }
+
+/* палитры оформления */
+.pill-group button {
+  background: #1a1f25;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: #98a2ad;
+  border-radius: 9px;
+}
+.pill-group button.on {
+  background: #e8ecef;
+  color: #14181d;
+  border-color: transparent;
+  font-weight: 500;
+}
+.theme-row label { color: #7f8a96; }
+.theme-hint { color: #6f7a86; }
+
+/* верхняя панель и карточки игроков */
+.chip {
+  background: transparent;
+  border-color: rgba(255, 255, 255, 0.10);
+  color: #98a2ad;
+}
+.topbar .logo span.mark {
+  background: #cfd8d2;
+  border-radius: 7px;
+}
+.player {
+  background: #15191e;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 12px;
+}
+.player.turn {
+  border-color: rgba(255, 255, 255, 0.30);
+  box-shadow: none;
+}
+.player.turn::before { background: #dfe5e2; width: 2px; }
+.player.me { box-shadow: none; border-color: rgba(255, 255, 255, 0.22); }
+.player .you { background: #dfe5e2; color: #14181d; }
+
+/* баннер хода, панель, вкладки */
+.banner {
+  background: #14181d;
+  border-color: rgba(255, 255, 255, 0.07);
+  border-radius: 12px;
+}
+.banner.w0, .banner.w1, .banner.w2, .banner.done { border-color: rgba(255, 255, 255, 0.10); }
+.panel { background: #14181d; border-color: rgba(255, 255, 255, 0.07); border-radius: 14px; }
+.tabs button.active { color: #e9edf1; box-shadow: inset 0 -2px 0 #dfe5e2; }
+.tool { background: rgba(20, 25, 30, 0.85); border-color: rgba(255, 255, 255, 0.10); }
+.rules-sheet h3 { color: #cfd8d2; }
+
+/* подсветки на доске — мягче */
+.overlay.sel { fill: rgba(255, 255, 255, 0.22); }
+.overlay.target { stroke: rgba(200, 214, 206, 0.75); }
+.overlay.check { fill: rgba(220, 120, 110, 0.40); }

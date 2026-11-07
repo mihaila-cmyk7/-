@@ -1,0 +1,7 @@
+{
+  // Мини-апп лежит в public/ и уезжает вместе с модулями: push печатает URL.
+  "static": {
+    "source": "public",
+    "spa": false
+  }
+}

@@ -1,0 +1,290 @@
+/* ------------------------- темы: поле, фигуры, фон ------------------------ */
+
+body {
+  --pw0: #ffffff;
+  --pw0s: #10151c;
+  --pw1: #ff7b72;
+  --pw1s: #2a0f0f;
+  --pw2: #1b1f26;
+  --pw2s: #cfd8e3;
+  --fn0: #f2f4f8;
+  --fn1: #e2554e;
+  --fn2: #6b7686;
+}
+
+/* палитры фигур */
+body[data-pieces='classic'] {
+  --pw0: #ffffff; --pw0s: #10151c;
+  --pw1: #ff7b72; --pw1s: #2a0f0f;
+  --pw2: #1b1f26; --pw2s: #cfd8e3;
+}
+body[data-pieces='mono'] {
+  --pw0: #f3f6fa; --pw0s: #0b0f14;
+  --pw1: #a8b8cc; --pw1s: #0b0f14;
+  --pw2: #55637a; --pw2s: #e7eef8;
+}
+body[data-pieces='neon'] {
+  --pw0: #7cf6d0; --pw0s: #04241c;
+  --pw1: #ff5ea8; --pw1s: #2b0a19;
+  --pw2: #8fb2ff; --pw2s: #08122b;
+}
+body[data-pieces='wood'] {
+  --pw0: #f6e6c4; --pw0s: #3b2a18;
+  --pw1: #c2603c; --pw1s: #2b120a;
+  --pw2: #3a2a20; --pw2s: #d9c6ad;
+}
+
+/* поле */
+body[data-board='slate'] .cell.wing-0.shade-0 { fill: #303a47; }
+body[data-board='slate'] .cell.wing-0.shade-1 { fill: #3d4756; }
+body[data-board='slate'] .cell.wing-1.shade-0 { fill: #4a2f31; }
+body[data-board='slate'] .cell.wing-1.shade-1 { fill: #57383a; }
+body[data-board='slate'] .cell.wing-2.shade-0 { fill: #262b34; }
+body[data-board='slate'] .cell.wing-2.shade-1 { fill: #2e3640; }
+
+body[data-board='emerald'] .cell.wing-0.shade-0 { fill: #2a3a33; }
+body[data-board='emerald'] .cell.wing-0.shade-1 { fill: #34463d; }
+body[data-board='emerald'] .cell.wing-1.shade-0 { fill: #4a3230; }
+body[data-board='emerald'] .cell.wing-1.shade-1 { fill: #573c39; }
+body[data-board='emerald'] .cell.wing-2.shade-0 { fill: #23302d; }
+body[data-board='emerald'] .cell.wing-2.shade-1 { fill: #2b3a36; }
+
+body[data-board='wood'] .cell.wing-0.shade-0 { fill: #6b543c; }
+body[data-board='wood'] .cell.wing-0.shade-1 { fill: #7a6247; }
+body[data-board='wood'] .cell.wing-1.shade-0 { fill: #6e4634; }
+body[data-board='wood'] .cell.wing-1.shade-1 { fill: #7d5240; }
+body[data-board='wood'] .cell.wing-2.shade-0 { fill: #4a382a; }
+body[data-board='wood'] .cell.wing-2.shade-1 { fill: #55412f; }
+
+body[data-board='neon'] .cell { stroke: rgba(120, 255, 220, 0.16); }
+body[data-board='neon'] .cell.wing-0.shade-0 { fill: #16202c; }
+body[data-board='neon'] .cell.wing-0.shade-1 { fill: #1d2b3b; }
+body[data-board='neon'] .cell.wing-1.shade-0 { fill: #331a26; }
+body[data-board='neon'] .cell.wing-1.shade-1 { fill: #40202f; }
+body[data-board='neon'] .cell.wing-2.shade-0 { fill: #131a24; }
+body[data-board='neon'] .cell.wing-2.shade-1 { fill: #1a2430; }
+
+/* фон */
+body[data-bg='night'] {
+  background:
+    radial-gradient(1200px 600px at 50% -10%, rgba(111, 140, 255, 0.16), transparent 60%),
+    radial-gradient(900px 500px at 10% 110%, rgba(87, 214, 168, 0.12), transparent 60%),
+    #0b0f14;
+}
+body[data-bg='aurora'] {
+  background:
+    radial-gradient(700px 420px at 15% 0%, rgba(111, 255, 214, 0.22), transparent 65%),
+    radial-gradient(700px 420px at 85% 10%, rgba(150, 120, 255, 0.28), transparent 65%),
+    radial-gradient(800px 500px at 50% 110%, rgba(255, 120, 190, 0.18), transparent 65%),
+    #080d13;
+}
+body[data-bg='felt'] {
+  background:
+    repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.014) 0 2px, transparent 2px 4px),
+    radial-gradient(900px 600px at 50% 0%, #17402f, #0a2318 70%);
+}
+body[data-bg='space'] {
+  background:
+    radial-gradient(2px 2px at 12% 18%, #ffffff 40%, transparent 41%),
+    radial-gradient(2px 2px at 78% 12%, #cfe2ff 40%, transparent 41%),
+    radial-gradient(2px 2px at 62% 62%, #ffffff 40%, transparent 41%),
+    radial-gradient(2px 2px at 28% 74%, #bcd7ff 40%, transparent 41%),
+    radial-gradient(2px 2px at 88% 68%, #ffffff 40%, transparent 41%),
+    radial-gradient(900px 600px at 50% 30%, #131c33, #05070d 72%);
+}
+body[data-bg='sunset'] {
+  background:
+    radial-gradient(700px 460px at 20% 10%, rgba(255, 170, 90, 0.28), transparent 65%),
+    radial-gradient(700px 460px at 80% 0%, rgba(255, 90, 140, 0.26), transparent 65%),
+    radial-gradient(900px 600px at 50% 110%, rgba(90, 120, 255, 0.16), transparent 65%),
+    #150c10;
+}
+
+/* фигуры подхватывают палитру */
+.piece.w0 { fill: var(--pw0); stroke: var(--pw0s); }
+.piece.w1 { fill: var(--pw1); stroke: var(--pw1s); }
+.piece.w2 { fill: var(--pw2); stroke: var(--pw2s); }
+
+/* ------------------------------ 3D-слой ---------------------------------- */
+
+.board-3d-layer {
+  position: absolute;
+  inset: 6px;
+  pointer-events: none;
+  z-index: 4;
+}
+.p3d {
+  position: absolute;
+  transform: translate(-50%, -70%);
+  line-height: 1;
+  font-family: 'Segoe UI Symbol', 'Apple Symbols', serif;
+  filter: drop-shadow(0 6px 6px rgba(0, 0, 0, 0.5));
+  will-change: transform;
+}
+.p3d.w0 { color: var(--pw0); text-shadow: 0 0 2px var(--pw0s), 0 1px 0 var(--pw0s); }
+.p3d.w1 { color: var(--pw1); text-shadow: 0 0 2px var(--pw1s), 0 1px 0 var(--pw1s); }
+.p3d.w2 { color: var(--pw2); text-shadow: 0 0 2px var(--pw2s), 0 1px 0 var(--pw2s); }
+.p3d-shadow {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: radial-gradient(closest-side, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0));
+  pointer-events: none;
+}
+
+.mode-3d .board-wrap { overflow: visible; }
+.mode-3d .board-tilt { transform-origin: 50% 58%; transition: transform 0.3s ease; }
+
+/* ------------------------- палитры оформления ---------------------------- */
+
+.theme-block { display: flex; flex-direction: column; gap: 6px; }
+.theme-row { display: flex; align-items: center; gap: 8px; }
+.theme-row label { font-size: 12px; color: var(--muted); width: 58px; flex: none; }
+.theme-row .pill-group { flex-wrap: wrap; }
+.theme-hint { margin: 2px 0 0; font-size: 11px; color: var(--muted); }
+
+
+/* --------------------------- картинки в правилах ------------------------- */
+
+.rule-figure {
+  margin: 4px 0 8px;
+  border-radius: 14px;
+  border: 1px solid var(--line);
+  background: radial-gradient(120% 100% at 50% 0%, rgba(111, 140, 255, 0.10), rgba(0, 0, 0, 0.35));
+  padding: 6px;
+}
+.rule-figure .thumb { display: block; width: 100%; height: 132px; }
+.t-cell { stroke: rgba(0, 0, 0, 0.45); stroke-width: 0.03; }
+.t-cell.w0.s0 { fill: #39434f; }
+.t-cell.w0.s1 { fill: #45505e; }
+.t-cell.w1.s0 { fill: #4a3436; }
+.t-cell.w1.s1 { fill: #573d3f; }
+.t-cell.w2.s0 { fill: #2b313a; }
+.t-cell.w2.s1 { fill: #343c47; }
+.t-hl { stroke: none; opacity: 0.92; }
+.t-hl.yellow { fill: #f2d35e; }
+.t-hl.red { fill: #e2554e; }
+.t-hl.green { fill: #4fc98a; }
+.t-hl.wing0 { fill: #f2f4f8; opacity: 0.85; }
+.t-hl.wing1 { fill: #e2554e; opacity: 0.85; }
+.t-hl.wing2 { fill: #6b7686; opacity: 0.9; }
+.t-dot { fill: #57d6a8; stroke: #04120c; stroke-width: 0.05; }
+
+
+/* --------------------------- инструменты доски --------------------------- */
+
+.board-tools {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  display: flex;
+  gap: 6px;
+  z-index: 12;
+}
+.tool {
+  width: 38px;
+  height: 38px;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: rgba(12, 17, 23, 0.72);
+  color: var(--text);
+  font: 600 17px/1 -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  transition: transform 0.1s, background 0.15s;
+}
+.tool:active { transform: scale(0.94); }
+.tool:hover { background: rgba(30, 40, 52, 0.9); }
+
+/* ------------------------------ zen-режим -------------------------------- */
+
+body.zen .topbar,
+body.zen #banner,
+body.zen #hud,
+body.zen #actions,
+body.zen .panel { display: none !important; }
+
+body.zen #app { padding: 0; gap: 0; max-width: none; }
+body.zen main { display: block; }
+body.zen .stage { gap: 0; }
+body.zen .board-wrap {
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+  background: var(--bg);
+  box-shadow: none;
+}
+body.zen .board-wrap::after { display: none; }
+body.zen .board-tilt {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3% 1.5%;
+  box-sizing: border-box;
+}
+body.zen svg#board { width: 100%; height: 100%; }
+body.zen .board-3d-layer { inset: 0; }
+body.zen .board-tools { right: 14px; bottom: max(14px, env(safe-area-inset-bottom)); }
+body.zen .toast { bottom: auto; top: 14px; }
+
+
+/* --------------------------- свой цвет фона ------------------------------ */
+
+body[data-bg='custom'] {
+  background:
+    radial-gradient(1200px 600px at 50% -10%, rgba(255, 255, 255, 0.10), transparent 60%),
+    radial-gradient(900px 500px at 10% 110%, rgba(0, 0, 0, 0.25), transparent 60%),
+    var(--bg-custom, #101820);
+}
+
+.swatch {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--muted);
+  border-radius: 999px;
+  padding: 4px 10px 4px 6px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.swatch input[type='color'] {
+  width: 20px;
+  height: 20px;
+  border: 0;
+  padding: 0;
+  background: none;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+}
+.swatch input[type='color']::-webkit-color-swatch-wrapper { padding: 0; }
+.swatch input[type='color']::-webkit-color-swatch { border: 1px solid rgba(255, 255, 255, 0.25); border-radius: 50%; }
+.swatch.on { border-color: var(--accent); color: var(--text); }
+
+
+/* инструменты не должны наезжать на доску */
+.board-wrap { padding: 6px 6px 46px; }
+body.zen .board-wrap { padding: 0; }
+
+
+/* центр не перехватывает тапы: сквозь него можно спокойно ходить */
+.center-plate,
+.center-label,
+.ribbon { pointer-events: none; }
+
+
+/* центр — часть доски, а не пустая дырка */
+.center-plate {
+  fill: rgba(150, 170, 200, 0.17);
+  stroke: rgba(180, 200, 230, 0.16);
+  stroke-width: 0.025;
+}
